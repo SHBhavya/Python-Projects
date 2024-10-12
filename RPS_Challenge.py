@@ -12,9 +12,8 @@ losses = 0
 ties = 0
 
 def play_game(player_move):
-    global wins, losses, ties  # To modify global variables inside the function
+    global wins, losses, ties  
 
-    # Generate a random move for the computer each time
     randomNumber = random.randint(1, 3)
     computer_move = ''
     
@@ -55,7 +54,7 @@ def play_game(player_move):
 # Game loop
 while True:
     print('\n(r)ock, (p)aper, (s)cissors, (q)uit')
-    player_move = input("Enter your move r/p/s/q: ").lower()
+    player_move = input("Enter your move : ").lower()
 
     if player_move == 'q':
         print(f'Well played {name}! Final Score:')
