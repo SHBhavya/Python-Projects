@@ -1,4 +1,4 @@
-# All 10 questions combined in one list
+# Simple Quiz Game with Score Tracking
 questions = [
     {'question': '1. Solve for x: 2x + 5 = 11.', 'answer': '3', 'options': ['4', '3', '2', '1']},
     {'question': '2. Find the perimeter of the rectangle with length 6cm and width 4cm.', 'answer': '20 cm', 'options': ['30 cm', '25 cm', '20 cm', '40 cm']},
